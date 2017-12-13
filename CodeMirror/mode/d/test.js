@@ -1,0 +1,1 @@
+!function(){function e(e){test.mode(e,t,Array.prototype.slice.call(arguments,1))}var t=CodeMirror.getMode({indentUnit:2},"d");e("nested_comments","[comment /+]","[comment comment]","[comment +/]","[variable void] [variable main](){}")}();

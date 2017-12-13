@@ -20,6 +20,10 @@ modes:	clike, coffeescript, css, erlang, go, htmlmixed, javascript, julia, lua, 
 addon:	brace-fold, closebrackets, closetag, css-hint, foldcode, foldgutter, html-hint, javascript-hint, javascript-lint, lint, match-highlighter, matchbrackets, runmode, searchcursor, show-hint, simplescrollbars, sql-hint, trailingspace, xml-fold, xml-hint
 //-->
 <script src="<?php echo $ICEcoder["codeMirrorDir"]; ?>/lib/codemirror-compressed.js?microtime=<?php echo microtime(true);?>"></script>
+<script src="<?php echo $ICEcoder["codeMirrorDir"]; ?>/lib/d/d.js?microtime=<?php echo microtime(true);?>"></script>
+<script src="<?php echo $ICEcoder["codeMirrorDir"]; ?>/lib/pug/pug.js?microtime=<?php echo microtime(true);?>"></script>
+<script src="<?php echo $ICEcoder["codeMirrorDir"]; ?>/lib/vue/vue.js?microtime=<?php echo microtime(true);?>"></script>
+<script src="<?php echo $ICEcoder["codeMirrorDir"]; ?>/lib/stylus/stylus.js?microtime=<?php echo microtime(true);?>"></script>
 <?php
 if (file_exists(dirname(__FILE__)."/plugins/jshint/jshint-2.5.6.min.js")) {
 	echo '<script src="plugins/jshint/jshint-2.5.6.min.js?microtime='.microtime(true).'></script>';
